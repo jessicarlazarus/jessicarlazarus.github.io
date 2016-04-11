@@ -1,0 +1,148 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+body{
+background: url(http://i989.photobucket.com/albums/af13/Jessica_Lazarus/CM3_001_zpssbwtfcu4.jpg?t=1438616424) no-repeat center center fixed; 
+
+background-position: center center;
+background-size: 100%;
+
+}
+
+
+h1
+{font-weight: bold;
+font-family:'Roboto';
+font-size: 36px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+h2 {
+	font-family: 'roboto';
+	font-size: 20px;
+	line-height:25px;
+    text-align:center;
+	color: white;
+	padding: 5px;
+	background: black;
+	width: 410px;
+	position: fixed;
+	right: 5px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+p{font-size: 14x;
+font-family: 'Roboto';
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+.container{ float: right;
+height: 400px;
+margin-top: 20px;
+margin-left: 10px;
+margin-bottom: 20px;
+margin-right:5px;
+padding:10px;
+width: 400px;
+font-family: 'Roboto';
+border-radius: 5px 5px 5px 5px;
+background: rgba(242,180, 66, 0.7);}
+
+
+.buttons {text-align: left;
+    margin-bottom: 1px;
+padding: 1px;
+margin-left: 8px;}
+
+img.social{width: 25px;}
+
+#modal-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+ 
+#modal-box {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 5px solid #454545;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+}
+ 
+#modal-show {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  margin: 0.5em;
+}
+ 
+#modal-hide {
+  background: white;
+  border-radius: 15px;
+  color: #454545;
+  display: block;
+  float: right;
+  font-family: monospace;
+  font-size: 20px;
+  margin-right: -17px;
+  position: relative;
+  top: -18px;
+  width: 30px;
+}
